@@ -1,21 +1,20 @@
-class Solution {
-    void backtrack(int index, vector<int>&nums, vector<int>path, vector<vector<int>>&res){
-        res.push_back(path);
+<div><div class="elfjS" data-track-load="description_content"><p>Given an integer array <code>nums</code> that may contain duplicates, return <em>all possible</em> <span data-keyword="subset" class=" cursor-pointer relative text-dark-blue-s text-sm"><button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:rp:" data-state="closed" class=""><em>subsets</em></button></span><em> (the power set)</em>.</p>
 
-        for(int i = index; i<nums.size(); ++i){
-            if(i>index && nums[i-1] ==nums[i])continue;
-            path.push_back(nums[i]);
-            backtrack(i+1, nums, path, res);
-            path.pop_back();                
-        }
-    }
-public:
-    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
-        
-        vector<vector<int>>res;
-        sort(nums.begin(), nums.end());
-        vector<int>path;
-        backtrack(0, nums, path, res);
-        return res;
-    }
-};
+<p>The solution set <strong>must not</strong> contain duplicate subsets. Return the solution in <strong>any order</strong>.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [1,2,2]
+<strong>Output:</strong> [[],[1],[1,2],[1,2,2],[2],[2,2]]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [0]
+<strong>Output:</strong> [[],[0]]
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= nums.length &lt;= 10</code></li>
+	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
+</ul>
+</div></div>
