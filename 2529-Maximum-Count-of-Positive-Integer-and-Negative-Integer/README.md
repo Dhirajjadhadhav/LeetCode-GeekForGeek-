@@ -1,4 +1,21 @@
-<div class="flex items-start gap-2"><div class="text-title-large font-semibold text-text-primary dark:text-text-primary"><a class="no-underline hover:text-blue-s dark:hover:text-dark-blue-s truncate cursor-text whitespace-normal hover:!text-[inherit]" href="https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/">2529. Maximum Count of Positive Integer and Negative Integer</a><div class="text-body ml-2 inline-flex items-center gap-2 py-1"><div class="inline-flex items-center space-x-2"></div></div></div></div>
+<h2>
+  <div class="flex items-start gap-2">
+    <div class="text-title-large font-semibold text-text-primary dark:text-text-primary">
+      <a 
+        class="no-underline hover:text-blue-s dark:hover:text-dark-blue-s truncate cursor-text whitespace-normal hover:!text-[inherit]" 
+        href="https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        2529. Maximum Count of Positive Integer and Negative Integer
+      </a>
+      <div class="text-body ml-2 inline-flex items-center gap-2 py-1">
+        <div class="inline-flex items-center space-x-2"></div>
+      </div>
+    </div>
+  </div>
+</h2>
+
 
 <div><div class="elfjS" data-track-load="description_content"><p>Given an array <code>nums</code> sorted in <strong>non-decreasing</strong> order, return <em>the maximum between the number of positive integers and the number of negative integers.</em></p>
 
